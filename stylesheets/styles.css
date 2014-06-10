@@ -52,6 +52,12 @@ a {
 
 header h1 a {
   font-weight: bold;
+  color:#8FCEB5;  
+}
+
+header h1 {
+  font-weight: bold;
+  color:#8FCEB5;  
 }
 
 a small {
