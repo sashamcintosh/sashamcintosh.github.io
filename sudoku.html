@@ -36,14 +36,14 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <!-- <li><a href="#about">About</a></li> -->
             <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
+            <li class="active" class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#">All</a></li>
-                <li><a href="sudoku.html">Sudoku Solver</a></li>
+                <li class="active"><a href="#">Sudoku Solver</a></li>
               </ul>
             </li>
           </ul>
@@ -53,13 +53,29 @@
 
     <div class="container theme-showcase">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Welcome!</h1>
-        <p>Sasha McIntosh is a recent graduate of Columbia University's Schoool of Engineering and Applied Science. Currently she works as a Technology Analyst at Citi, developing and enhacing trading aplications for the structured credit market traders.</p>
-        <br/>
-        <a href="#" class="btn btn-primary btn-lg" role="button">Contact Me &raquo;</a>
+      <div class="page-header">
+        <h1>Vision Based Sudoku Solver</h1>        
       </div>
+
+      <li>pick sample image from drop down menu</li>
+      <div class="dropdown theme-dropdown clearfix">
+        <a id="dropdownMenu1" href="#" role="button" class="sr-only dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Example 1</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Example 2</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Example 3</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Example 4</a></li>
+        </ul>
+      </div>
+
+      <div class="page-header">
+        <h1>Thumbnails</h1>
+      </div>
+      <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+
+      <li>display sample image</li>
+      <li>go through processing step by step</li>
+
 
     </div> <!-- /container -->
 
